@@ -1,1 +1,28 @@
 /* page/component/pages/LMT-view/LMT-view.wxss */
+.baie-flex:before,
+.baie-flex:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.baie-flex .baie-flex-item{
+  float: left;
+  width: 33.33%;
+}
+.baie-flex-vertical .baie-flex-item{
+  width: 50%;
+  margin: 0 auto;
+}
+.baie-flex-item{
+  line-height: 150px;
+  text-align: center;
+}
+.baie-flex-item:first-child{
+  background-color: #fc3;
+}
+.baie-flex-item:nth-child(2){
+  background-color: #f6c;
+}
+.baie-flex-item:last-child{
+  background-color: #cf6;
+}

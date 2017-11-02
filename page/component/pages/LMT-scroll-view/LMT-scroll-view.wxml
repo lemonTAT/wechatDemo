@@ -1,2 +1,15 @@
-<!--page/component/pages/LMT-scroll-view/LMT-scroll-view.wxml-->
-<text>page/component/pages/LMT-scroll-view/LMT-scroll-view.wxml</text>
+<import src="../../../common/head.wxml" />
+
+<view>
+  <template is="head" data="{{title: 'scroll-view', desc: 'createTime: 2017-11-01 '}}"></template>
+
+  <view class="baie-section">
+    <view>
+      <scroll-view>
+        <view></view>
+        <view></view>
+        <view></view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

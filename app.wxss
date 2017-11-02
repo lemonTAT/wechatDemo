@@ -224,3 +224,13 @@ form{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+/* 自定义公用样式 */
+.baie-section{
+  padding: 15px;
+  color: #999;
+}
+.baie-module{
+  
+}

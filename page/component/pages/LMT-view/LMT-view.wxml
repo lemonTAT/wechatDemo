@@ -1,2 +1,28 @@
-<!--page/component/pages/LMT-view/LMT-view.wxml-->
-<text>page/component/pages/LMT-view/LMT-view.wxml</text>
+<import src="../../../common/head.wxml" />
+
+<view>
+  <template is="head" data="{{title: 'view', desc: 'createTime: 2017-11-01'}}"></template>
+  <view class="baie-section">
+    <view class="baie-flex">
+      <view class="baie-flex-title">
+        <text>横向布局</text>
+      </view>
+      <view class="baie-flex-body">
+        <view class="baie-flex-item">Aaaaaa</view>
+        <view class="baie-flex-item">Bbbbbb</view>
+        <view class="baie-flex-item">Cccccc</view>
+      </view>
+    </view>
+
+    <view class="baie-flex-vertical">
+      <view class="baie-flex-title">
+        <text>纵向布局</text>
+      </view>
+      <view class="baie-flex-body">
+        <view class="baie-flex-item">Aaaaaa</view>
+        <view class="baie-flex-item">Bbbbbb</view>
+        <view class="baie-flex-item">Cccccc</view>
+      </view>
+    </view>
+  </view>
+</view>
